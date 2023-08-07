@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ededf2;
+}
+
+.conteiner {
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #cfd5e1;
+  border-radius: 15px;
+  box-shadow: 0px 5px 30px rgba(100, 100, 100, 0.5);
+  width: 80%;
+}
+
+.btn-tarefa {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #cfd5e1;
+  transition: 1.0s;
+}
+
+.btn-tarefa:hover {
+  color: #fff;
+  background: #6c788e;
+  transition: 1.0s;
+}
+
+.apagar {
+  color: #cc0000;
+  background: none;
+  border: none;
+  margin: 50px;
+  transition: 1.0s;
+}
+
+.apagar:hover {
+  padding: 5px;
+  color: #fff;
+  background: #cc0000;
+  border-radius: 10px;
+  transition: 1.0s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (max-width:1000px) {
+  .conteiner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-tarefa {
+    margin-top: 15px ;
+  }
+}
